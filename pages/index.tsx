@@ -36,9 +36,17 @@ export default function Home() {
         <div className={styles.card}>
           <center>
             <p className={styles.description}>
-              <span><a href='https://twitter.com/ordinalmilady'>twitter</a></span>
+              Collection Links: &nbsp;
+              <span><a href='https://openordex.org/collection?slug=milady'>OpenOrdex</a></span>
               &nbsp; // &nbsp;
-              <span><a href='https://openordex.org/collection?slug=milady'>explorer</a></span>
+              <span><a href='https://ordinalswallet.com/collection/milady'>Ordinals Wallet</a></span>
+            </p>
+          </center>
+        </div>
+        <div className={styles.card}>
+          <center>
+            <p className={styles.description}>
+              <span><a href='https://twitter.com/ordinalmilady'>twitter</a></span>
               &nbsp; // &nbsp;
               <span><a href='https://t.me/+E5eNac5YUSowZjdh'>telegram</a></span>
             </p>
